@@ -1,0 +1,45 @@
+
+
+h1
+{
+    color: black;
+    text-align: center;
+}
+p
+{
+    text-align: center;
+}
+body
+{
+    background-color: lavender;
+    background-repeat: repeat;
+    background-size: cover;
+}
+
+
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: aquamarine;
+    overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: skyblue;
+    color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+    background-color: deepskyblue;
+    color: black;

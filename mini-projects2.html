@@ -14,26 +14,22 @@
     <a href="friends.html">Friends</a>
     <a class="active" href="mini-projects2.html">JavaScript Mini Projects</a>
 </div>
-<h1>JavaScript Mini Projects</h1>
-<br>
 
 <form name="project3">
-    <h2>Grade Converter!</h2>
+    <h4>Grade Converter!</h4>
     <br>
     Please type a numeric score to convert: <input type="text" name="num1">
-    <br><br>
+    <br>
     <button type="button" onclick="document.project3.result.value=assignGrade()">Convert!</button>
     <br><br>
     <input type="text" readonly="true" name="result" style="border-style: none">
 </form>
 
-<br><br>
-
 <form name="project4">
-    <h2>Temperature Bug!</h2>
+    <h4>Temperature Bug!</h4>
     <br>
     Please type a temperature to convert: <input type="text" name="temp1">
-    <br><br>
+    <br>
     <button type="button" onclick="document.project4.result.value=temperatureBug()">Convert!</button>
     <br><br>
     <input type="text" readonly="true" name="result" style="border-style: none">
@@ -41,28 +37,22 @@
     <!--I got help for the conditional images from Shreya-->
 </form>
 
-<br><br>
-
 <form name="project5">
-    <h2>Calorie Counter!</h2>
+    <h4>Calorie Counter!</h4>
     Exercises available: Soccer, Walking, Running
     <br><br>
-    Time amounts available: 30 minutes, 60 minutes <br><br>
-    Please select an exercise: <select id="activities">
+    Please select an exercise: <select id="activity">
     <option value="select one">Select One</option>
     <option value="soccer">Soccer</option>
     <option value="walking">Walking</option>
     <option value="running">Running</option>
     </select>
     <br><br>
-    Please select a time: <select id="time">
-    <option value="select one">Select One</option>
-    <option value="30 minutes">30 minutes</option>
-    <option value="60 minutes">60 minutes</option>
-    </select> <br><br>
+    Please enter a time: <input type="text" name="time">
+    <br><br>
     <button type="button" onclick="document.project5.result.value=calorieCounter()">Calories Burned!</button>
     <br><br>
-    <input id="result">
+    <input id="result" readonly="true" name="result" style="border-style: none">
     <!-- Shreya provided help with this mini project-->
 </form>
 

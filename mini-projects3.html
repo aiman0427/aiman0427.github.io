@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Mini-Projects</title>
+    <link rel="stylesheet" href="mini-projects2.css">
+    <script src="mini-projects2.js"></script>
+</head>
+<body>
+<div class="topnav">
+    <a href="index.html">About Aiman</a>
+    <a href="favorites.html">Favorites</a>
+    <a href="vacations.html">Vacations</a>
+    <a href="friends.html">Friends</a>
+    <a class="active" href="mini-projects2.html">JavaScript Mini Projects</a>
+</div>
+
+<form name="project3">
+    <h4>Grade Converter!</h4>
+    <br>
+    Please type a numeric score to convert: <input type="text" name="num1">
+    <br>
+    <button type="button" onclick="document.project3.result.value=assignGrade()">Convert!</button>
+    <br><br>
+    <input type="text" readonly="true" name="result" style="border-style: none">
+</form>
+
+<form name="project4">
+    <h4>Temperature Bug!</h4>
+    <br>
+    Please type a temperature to convert: <input type="text" name="temp1">
+    <br>
+    <button type="button" onclick="document.project4.result.value=temperatureBug()">Convert!</button>
+    <br><br>
+    <input type="text" readonly="true" name="result" style="border-style: none">
+    <img id="weather" width="300" >
+    <!--I got help for the conditional images from Shreya-->
+</form>
+
+<form name="project5">
+    <h4>Calorie Counter!</h4>
+    Exercises available: Soccer, Walking, Running
+    <br><br>
+    Please select an exercise: <select id="activity">
+    <option value="select one">Select One</option>
+    <option value="soccer">Soccer</option>
+    <option value="walking">Walking</option>
+    <option value="running">Running</option>
+    </select>
+    <br><br>
+    Please enter a time: <input type="text" name="time">
+    <br><br>
+    <button type="button" onclick="document.project5.result.value=calorieCounter()">Calories Burned!</button>
+    <br><br>
+    <input id="result" readonly="true" name="result" style="border-style: none">
+</form>
+
+</body>
+</html>

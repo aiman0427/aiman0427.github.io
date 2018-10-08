@@ -56,39 +56,20 @@ function temperatureBug()
 
 function calorieCounter()
 {
-    var exercise = document.getElementById('activities').value;
-    var time = document.getElementById('time').value;
-    if (exercise === 'soccer')
+    var activity = document.getElementById('activity').value;
+    var time = document.project5.time.value;
+
+    if(activity == "soccer")
     {
-        if (time == '30 minutes')
-        {
-            return "215 calories burned"
-        }
-        else if (time == '60 minutes')
-        {
-            return "430 calories burned"
-        }
+        return 7 * time + " " + "calories burned";
     }
-    else if (exercise === 'walking')
+    else if(activity == "walking")
     {
-        if (time == '30 minutes')
-        {
-            return "90 calories burned"
-        }
-        else if (time == '60 minutes')
-        {
-            return "180 calories burned"
-        }
+        return 4 * time + " " + "calories burned";
     }
-    else if (exercise === 'running')
+    else if(activity == "running")
     {
-        if (time == '30 minutes')
-        {
-            return "230 calories burned"
-        }
-        else if (time == '60 minutes')
-        {
-            return "460 calories burned"
-        }
+        return 8 * time + " " + "calories burned";
     }
 }
+

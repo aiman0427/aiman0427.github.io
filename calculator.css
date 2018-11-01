@@ -1,0 +1,76 @@
+body
+{
+    background-color: powderblue ;
+    background-repeat: repeat;
+    background-size: cover;
+}
+form
+{
+    text-align: center;
+}
+button
+{
+    background-color: lightseagreen;
+    border: 2px solid black;
+    color: white;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 9px;
+}
+
+button:hover
+{
+    background-color: lightskyblue;
+    color: black;
+}
+input[type=text]
+{
+    border: 2px solid purple;
+    border-radius: 4px;
+    height: 50px;
+    background-color: lavender;
+    color: black;
+}
+.redButton
+ {
+    width: 168px;
+ }
+.number
+{
+    width: 87px;
+}
+.symbol
+{
+    width: 98px;
+}
+.topnav {
+    background-color: aquamarine;
+    overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: skyblue;
+    color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+    background-color: deepskyblue;
+    color: black;
+}
+
+

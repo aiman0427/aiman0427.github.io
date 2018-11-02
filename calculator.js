@@ -8,31 +8,31 @@ function calculate(expression)
     {
         var firstNum = Number(expression.substr(0,1));
         var operator = expression.substr(1,1);
-        var secondNum = Number(expression.substr(2,1));
+        var secondNum = Number(expression.substr(2,2));
     }
     else if (expression.substr(1,1) === '-')
     {
         var firstNum = Number(expression.substr(0,1));
         var operator = expression.substr(1,1);
-        var secondNum = Number(expression.substr(2,1));
+        var secondNum = Number(expression.substr(2,2));
     }
     else if (expression.substr(1,1) === '*')
     {
         var firstNum = Number(expression.substr(0,1));
         var operator = expression.substr(1,1);
-        var secondNum = Number(expression.substr(2,1));
+        var secondNum = Number(expression.substr(2,2));
     }
     else if (expression.substr(1,1) === '/')
     {
         var firstNum = Number(expression.substr(0,1));
         var operator = expression.substr(1,1);
-        var secondNum = Number(expression.substr(2,1));
+        var secondNum = Number(expression.substr(2,2));
     }
     else if (expression.substr(1,1) === '^')
     {
         var firstNum = Number(expression.substr(0,1));
         var operator = expression.substr(1,1);
-        var secondNum = Number(expression.substr(2,1));
+        var secondNum = Number(expression.substr(2,2));
     }
     else
     {

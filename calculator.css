@@ -26,6 +26,7 @@ button:hover
     background-color: lightskyblue;
     color: black;
 }
+/* code taken from w3schools.com */
 input[type=text]
 {
     border: 2px solid purple;

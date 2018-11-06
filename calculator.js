@@ -40,6 +40,7 @@ function calculate(expression)
         var operator = expression.substr(2,1);
         var secondNum = Number(expression.substr(3,2));
     }
+    /* code taken from Shreya */
 
     if (operator === '+')
     {

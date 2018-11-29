@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Mad Libs</title>
+    <script src="MadLibs.js"></script>
+    <link href="MadLibs.css" rel="stylesheet">
+</head>
+<body>
+<div class="topnav">
+    <a href="index.html">About Aiman</a>
+    <a href="favorites.html">Favorites</a>
+    <a href="vacations.html">Vacations</a>
+    <a href="friends.html">Friends</a>
+    <a href="mini-projects2.html">JavaScript Mini Projects</a>
+    <a href="binary.html">Binary</a>
+    <a href="calculator.html">Calculator</a>
+    <a class="active" href="MadLibs.html">Mad Libs</a>
+</div>
+<br>
+<form name="madLib">
+<h1>Mad Libs!</h1>
+<br>
+Female Name: <input type="text" id="word1">
+<br><br>
+Adjective 1: <input type="text" id="word2">
+<br><br>
+Adjective 2: <input type="text" id="word3">
+<br><br>
+Adjective 3: <input type="text" id="word4">
+<br><br>
+An Article of Clothing: <input type="text" id="word5">
+<br><br>
+Noun 1: <input type="text" id="word6">
+<br><br>
+Noun 2: <input type="text" id="word7">
+<br><br>
+A Part of the Body: <input type="text" id="word8">
+<br><br>
+Plural Noun 1: <input type="text" id="word9">
+<br><br>
+Plural Noun 2: <input type="text" id="word10">
+<br><br>
+Plural Noun 3: <input type="text" id="word11">
+<br><br>
+Name of a School: <input type="text" id="word12">
+<br><br>
+<button type="button" onclick="document.getElementById('madLibs').innerHTML=array1()">CREATE!!!</button>
+    <br>
+<p id="madLibs"></p>
+</form>
+</body>
+</html>

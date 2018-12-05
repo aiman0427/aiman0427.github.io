@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Aiman's Quiz</title>
+    <script src="quiz.js"></script>
+    <link href="quiz.css" rel="stylesheet">
+
+</head>
+<body>
+<div class="topnav">
+    <a href="index.html">About Aiman</a>
+    <a href="favorites.html">Favorites</a>
+    <a href="vacations.html">Vacations</a>
+    <a href="friends.html">Friends</a>
+    <a href="mini-projects2.html">JavaScript Mini Projects</a>
+    <a href="binary.html">Binary</a>
+    <a href="calculator.html">Calculator</a>
+    <a href="MadLibs.html">Mad Libs</a>
+    <a class=active href="quiz.html">Quiz About Me</a>
+</div>
+<br>
+<h1>A Quiz About Me</h1>
+<form name="quiz">
+    1) What is my favorite book series?<br>
+    <input type="text" name="a1">
+    <br><br>
+    2) What state was I born in?
+    <br>
+    <input type="radio" name="a2" value="Illinois">Illinois<br>
+    <input type="radio" name="a2" value="Michigan">Michigan<br>
+    <input type="radio" name="a2" value="Arkansas">Arkansas<br>
+    <input type="radio" name="a2" value="Arizona">Arizona<br>
+    <br><br>
+    3) What are my favorite TV shows?
+    <br>
+    <input type="checkbox" name="a3A" value="The Flash">The Flash<br>
+    <input type="checkbox" name="a3B" value="Supergirl">Supergirl<br>
+    <input type="checkbox" name="a3C" value="Arrow">Arrow<br>
+    <input type="checkbox" name="a3D" value="Riverdale">Riverdale<br>
+    <input type="checkbox" name="a3E" value="Stranger Things">Stranger Things<br>
+    <br><br>
+    4) What was my favorite vacation?
+    <br>
+    <input type="radio" name="a4" value="Disney World">Disney World<br>
+    <input type="radio" name="a4" value="Alaska">Alaska<br>
+    <input type="radio" name="a4" value="Yellowstone National Park">Yellowstone National Park<br>
+    <input type="radio" name="a4" value="Canada">Canada<br>
+    <br><br>
+    5) What is my favorite sport?
+    <br>
+    <input type="radio" name="a5" value="Bowling">Bowling<br>
+    <input type="radio" name="a5" value="Basketball">Basketball<br>
+    <input type="radio" name="a5" value="Badminton">Badminton<br>
+    <input type="radio" name="a5" value="Soccer">Soccer<br>
+    <br><br>
+    6) What are my favorite movies?
+    <br>
+    <input type="checkbox" name="a6A" value="Harry Potter">Harry Potter<br>
+    <input type="checkbox" name="a6B" value="Avengers: Infinity War">Avengers: Infinity War<br>
+    <input type="checkbox" name="a6C" value="Spiderman">Spiderman<br>
+    <input type="checkbox" name="a6D" value="Beauty">Beauty and the Beast<br>
+    <input type="checkbox" name="a6E" value="Fantastic Beasts">Fantastic Beasts and Where to Find Them<br>
+    <br><br>
+    7) What month was I born in?
+    <br>
+    <input type="text" name="a7">
+    <br><br>
+    8) How many states have I been to?
+    <br>
+    <input type="radio" name="a8" value="26">26<br>
+    <input type="radio" name="a8" value="24">24<br>
+    <input type="radio" name="a8" value="27">27<br>
+    <input type="radio" name="a8" value="25">25<br>
+    <br><br>
+    9) What Jr High did I go to?
+    <br>
+    <input type="text" name="a9">
+    <br><br>
+    10) What elementary school(s) did I go to?
+    <br>
+    <input type="checkbox" name="a10A" value="Hanover Highlands">Hanover Highlands<br>
+    <input type="checkbox" name="a10B" value="Einstein">Einstein<br>
+    <input type="checkbox" name="a10C" value="Blackwell">Blackwell<br>
+    <input type="checkbox" name="a10D" value="Armstrong">Armstrong<br>
+    <input type="checkbox" name="a10E" value="Hoover">Hoover<br>
+    <br><br>
+
+
+    <button type="button" onclick="document.getElementById('quiz').innerHTML=checkAnswers()">Check Answers!!!</button>
+    <br>
+    <p id="quiz"></p>
+
+
+    <!--<button type="button" onclick="checkAnswers()">CHECK ANSWERS</button>
+    -->
+</form>
+
+</body>
+</html>

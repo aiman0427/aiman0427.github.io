@@ -1,16 +1,19 @@
 
 h1
 {
-text-align: center;
+    text-align: center;
+    font-family: "Calibri"
 }
 p
 {
     text-align: center;
+    font-family: "Calibri"
 }
 
 h3
 {
-text-align: center;
+    text-align: center;
+    font-family: "Calibri"
 }
 
 body
